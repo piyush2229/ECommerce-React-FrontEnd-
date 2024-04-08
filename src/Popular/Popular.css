@@ -1,0 +1,33 @@
+.popular{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    height: 90vh;
+    padding-bottom: 380px;
+}
+.popular h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 50px;
+}
+.popular hr{
+    width: 200px;
+    height: 6px;
+    border-radius: 10px;
+    background-color: #252525;
+}
+.popular-items {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 50px;
+    gap: 10px;
+    margin-left: 100px;
+}
+
+.popular-items img{
+    width: 150px;
+    aspect-ratio: 3/3;
+    object-fit: contain;
+    mix-blend-mode: color-burn;
+}

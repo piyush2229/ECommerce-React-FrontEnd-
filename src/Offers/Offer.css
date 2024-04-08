@@ -1,0 +1,56 @@
+.offers {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    padding: 0px 140px;
+    margin-bottom: 150px;
+    background: linear-gradient(180deg, #fde1ff, #e1ffea22 60%);
+}
+
+.offers-left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 20px; /* Add padding from the bottom for the left section */
+}
+
+.offers-left h1 {
+    font-size: 80px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #171717;
+    margin-bottom: 10px; /* Add bottom margin to the heading */
+}
+
+.offers-left p {
+    font-size: 22px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #171717;
+    margin-bottom: 20px; /* Add bottom margin to the paragraph */
+}
+
+.offers-left button {
+    width: 282px;
+    height: 70px;
+    border-radius: 35px;
+    background-color: #ff4141;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+    margin-bottom: 30px; /* Add bottom margin to the button */
+}
+
+.offers-right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 150px;
+    padding-bottom: 20px; 
+    padding-right: 50px;
+}

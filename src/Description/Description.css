@@ -1,0 +1,31 @@
+.Description{
+    margin:120px 170px
+}
+.Description-navigator{
+    display: flex;
+}
+.Description-navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    width: 120px;
+    height: 40px;
+    border: 1px solid #888;
+    cursor: pointer;
+}
+.Description-navbar.fade{
+    background: #fbfbfb;
+    color:#555
+}
+.main-Description{
+    display: flex;
+    border: 1px solid #d0d0d0;
+    gap: 25px;
+    padding: 48px;
+    padding-bottom:70px ;
+}
